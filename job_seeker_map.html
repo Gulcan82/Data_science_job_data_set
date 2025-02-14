@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c34ecfb56f42b025b4325ea9e3d8ea74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c34ecfb56f42b025b4325ea9e3d8ea74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c34ecfb56f42b025b4325ea9e3d8ea74 = L.map(
+                "map_c34ecfb56f42b025b4325ea9e3d8ea74",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_355c6460ffda41acf62358ff83eb4b26 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_355c6460ffda41acf62358ff83eb4b26.addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var marker_e646adc99377c355483af5977d1677c3 = L.marker(
+                [40.7128, -74.006],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_ad44b3d39fceda4f62a363ebe369ce12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e646adc99377c355483af5977d1677c3.setIcon(icon_ad44b3d39fceda4f62a363ebe369ce12);
+        
+    
+        var popup_e823e7adf9b764264449af7685c1b236 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec0b1b82216d6c2a1cc5be720b974ba5 = $(`<div id="html_ec0b1b82216d6c2a1cc5be720b974ba5" style="width: 100.0%; height: 100.0%;">New York: Job Seekers</div>`)[0];
+                popup_e823e7adf9b764264449af7685c1b236.setContent(html_ec0b1b82216d6c2a1cc5be720b974ba5);
+            
+        
+
+        marker_e646adc99377c355483af5977d1677c3.bindPopup(popup_e823e7adf9b764264449af7685c1b236)
+        ;
+
+        
+    
+    
+            var marker_c7427c5a6d5d888bc9c7516de6b26669 = L.marker(
+                [37.7749, -122.4194],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_08fd2d4272e246434ed997cf8cfc796a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7427c5a6d5d888bc9c7516de6b26669.setIcon(icon_08fd2d4272e246434ed997cf8cfc796a);
+        
+    
+        var popup_284b1cb9d8896904573f2c0eec36d426 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ae088955f86024b3ab376b6ed785578 = $(`<div id="html_7ae088955f86024b3ab376b6ed785578" style="width: 100.0%; height: 100.0%;">San Francisco: Job Seekers</div>`)[0];
+                popup_284b1cb9d8896904573f2c0eec36d426.setContent(html_7ae088955f86024b3ab376b6ed785578);
+            
+        
+
+        marker_c7427c5a6d5d888bc9c7516de6b26669.bindPopup(popup_284b1cb9d8896904573f2c0eec36d426)
+        ;
+
+        
+    
+    
+            var marker_c8bd96ab118f1104e4d12e4bd17490a3 = L.marker(
+                [51.5074, -0.1278],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_93816af8725215f8d529d74e4a08e716 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c8bd96ab118f1104e4d12e4bd17490a3.setIcon(icon_93816af8725215f8d529d74e4a08e716);
+        
+    
+        var popup_40db0db3d819d9b00fd82586d222f36f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a222aa78d52f3513f64364ea1e305b5 = $(`<div id="html_9a222aa78d52f3513f64364ea1e305b5" style="width: 100.0%; height: 100.0%;">London: Job Seekers</div>`)[0];
+                popup_40db0db3d819d9b00fd82586d222f36f.setContent(html_9a222aa78d52f3513f64364ea1e305b5);
+            
+        
+
+        marker_c8bd96ab118f1104e4d12e4bd17490a3.bindPopup(popup_40db0db3d819d9b00fd82586d222f36f)
+        ;
+
+        
+    
+    
+            var marker_07b1418c85c859777f88a5b411235781 = L.marker(
+                [52.52, 13.405],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_c82381037dfc3a57c6c06bb6e8874655 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_07b1418c85c859777f88a5b411235781.setIcon(icon_c82381037dfc3a57c6c06bb6e8874655);
+        
+    
+        var popup_769900d08c29f8ad2ef3cdb3597d4d1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b81cced90875c93d87512ddcdc7612c5 = $(`<div id="html_b81cced90875c93d87512ddcdc7612c5" style="width: 100.0%; height: 100.0%;">Berlin: Job Seekers</div>`)[0];
+                popup_769900d08c29f8ad2ef3cdb3597d4d1e.setContent(html_b81cced90875c93d87512ddcdc7612c5);
+            
+        
+
+        marker_07b1418c85c859777f88a5b411235781.bindPopup(popup_769900d08c29f8ad2ef3cdb3597d4d1e)
+        ;
+
+        
+    
+    
+            var marker_a2b9cfe1d849542b8295c23fdbc20db4 = L.marker(
+                [48.8566, 2.3522],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_eb6ff6bcd50213d0d377257dc9dfa26a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2b9cfe1d849542b8295c23fdbc20db4.setIcon(icon_eb6ff6bcd50213d0d377257dc9dfa26a);
+        
+    
+        var popup_f1e325ffd78fe37046001f33308dfda2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c99159cffc2a0fce933e1f5afcca549a = $(`<div id="html_c99159cffc2a0fce933e1f5afcca549a" style="width: 100.0%; height: 100.0%;">Paris: Job Seekers</div>`)[0];
+                popup_f1e325ffd78fe37046001f33308dfda2.setContent(html_c99159cffc2a0fce933e1f5afcca549a);
+            
+        
+
+        marker_a2b9cfe1d849542b8295c23fdbc20db4.bindPopup(popup_f1e325ffd78fe37046001f33308dfda2)
+        ;
+
+        
+    
+    
+            var marker_c2ebe8d7a2360c0dfcd6cd3f2d2f0d27 = L.marker(
+                [35.6895, 139.6917],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_92f284c60533cec2cf3e7f883c9aa17f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c2ebe8d7a2360c0dfcd6cd3f2d2f0d27.setIcon(icon_92f284c60533cec2cf3e7f883c9aa17f);
+        
+    
+        var popup_8c3d0c51b23ca424210a44da8c543136 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2de60109ec09659540b1ad90079dfe2 = $(`<div id="html_d2de60109ec09659540b1ad90079dfe2" style="width: 100.0%; height: 100.0%;">Tokyo: Job Seekers</div>`)[0];
+                popup_8c3d0c51b23ca424210a44da8c543136.setContent(html_d2de60109ec09659540b1ad90079dfe2);
+            
+        
+
+        marker_c2ebe8d7a2360c0dfcd6cd3f2d2f0d27.bindPopup(popup_8c3d0c51b23ca424210a44da8c543136)
+        ;
+
+        
+    
+    
+            var marker_8d22a3edfa50c793f3fde4973bba69e3 = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_cebd104122437f4c4cdfcd45cb5d3088 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8d22a3edfa50c793f3fde4973bba69e3.setIcon(icon_cebd104122437f4c4cdfcd45cb5d3088);
+        
+    
+        var popup_42eb37998cb770b813c6cbdde1d1ec4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efcd28a7019189e9b2fef19b3714e703 = $(`<div id="html_efcd28a7019189e9b2fef19b3714e703" style="width: 100.0%; height: 100.0%;">Mumbai: Job Seekers</div>`)[0];
+                popup_42eb37998cb770b813c6cbdde1d1ec4b.setContent(html_efcd28a7019189e9b2fef19b3714e703);
+            
+        
+
+        marker_8d22a3edfa50c793f3fde4973bba69e3.bindPopup(popup_42eb37998cb770b813c6cbdde1d1ec4b)
+        ;
+
+        
+    
+    
+            var marker_af555175ccc4842b1929e92ef77413c5 = L.marker(
+                [39.9042, 116.4074],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_b0ee5e4f6519ec48be4c29d0fabc3a7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_af555175ccc4842b1929e92ef77413c5.setIcon(icon_b0ee5e4f6519ec48be4c29d0fabc3a7f);
+        
+    
+        var popup_aae254a2c0ee8c88080ed069011a4541 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aac825ab830f90d2d55ee988195e72f3 = $(`<div id="html_aac825ab830f90d2d55ee988195e72f3" style="width: 100.0%; height: 100.0%;">Beijing: Job Seekers</div>`)[0];
+                popup_aae254a2c0ee8c88080ed069011a4541.setContent(html_aac825ab830f90d2d55ee988195e72f3);
+            
+        
+
+        marker_af555175ccc4842b1929e92ef77413c5.bindPopup(popup_aae254a2c0ee8c88080ed069011a4541)
+        ;
+
+        
+    
+    
+            var marker_aa1c6e60f871478dce76099425555202 = L.marker(
+                [-33.8688, 151.2093],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_6d4f4c8bdadb1e748b6313bfb1120294 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_aa1c6e60f871478dce76099425555202.setIcon(icon_6d4f4c8bdadb1e748b6313bfb1120294);
+        
+    
+        var popup_d3063c36064f28cefba3b51e90dab549 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c995c9dbacf67931acecdd1b96a092ca = $(`<div id="html_c995c9dbacf67931acecdd1b96a092ca" style="width: 100.0%; height: 100.0%;">Sydney: Job Seekers</div>`)[0];
+                popup_d3063c36064f28cefba3b51e90dab549.setContent(html_c995c9dbacf67931acecdd1b96a092ca);
+            
+        
+
+        marker_aa1c6e60f871478dce76099425555202.bindPopup(popup_d3063c36064f28cefba3b51e90dab549)
+        ;
+
+        
+    
+    
+            var marker_d02039c7a59605c8e3301fd914159a7a = L.marker(
+                [43.65107, -79.347015],
+                {
+}
+            ).addTo(map_c34ecfb56f42b025b4325ea9e3d8ea74);
+        
+    
+            var icon_46a66a142106d53da56bf02a39df1f19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d02039c7a59605c8e3301fd914159a7a.setIcon(icon_46a66a142106d53da56bf02a39df1f19);
+        
+    
+        var popup_75f917caf42dd3ff28a9f7f441ce823f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9199997c19d5d6642f15fe6049efcd38 = $(`<div id="html_9199997c19d5d6642f15fe6049efcd38" style="width: 100.0%; height: 100.0%;">Toronto: Job Seekers</div>`)[0];
+                popup_75f917caf42dd3ff28a9f7f441ce823f.setContent(html_9199997c19d5d6642f15fe6049efcd38);
+            
+        
+
+        marker_d02039c7a59605c8e3301fd914159a7a.bindPopup(popup_75f917caf42dd3ff28a9f7f441ce823f)
+        ;
+
+        
+    
+</script>
+</html>
